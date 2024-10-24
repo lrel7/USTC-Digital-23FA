@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Oct  5 17:54:26 2023
+# Process ID: 1197
+# Current directory: /home/ubuntu/start/start.runs/synth_1
+# Command line: vivado -log MAX2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MAX2.tcl
+# Log file: /home/ubuntu/start/start.runs/synth_1/MAX2.vds
+# Journal file: /home/ubuntu/start/start.runs/synth_1/vivado.jou
+# Running On: VM7699-verilog-labs, OS: Linux, CPU Frequency: 2100.000 MHz, CPU Physical cores: 2, Host memory: 4294 MB
+#-----------------------------------------------------------
+source MAX2.tcl -notrace

@@ -1,0 +1,42 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /opt/vlab/vivado/Xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot MUL_Signed_tb_behav xil_defaultlib.MUL_Signed_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'ci' [/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/mul_signed.v:18]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/mul_signed.v" Line 1. Module MUL_Signed(WIDTH=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/mul_improved.v" Line 1. Module MUL(WIDTH=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/reg.v" Line 1. Module Register(WIDTH=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/product_reg.v" Line 1. Module ProductReg(WIDTH=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/control_improved.v" Line 1. Module Control(N=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder32_8.v" Line 1. Module Adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" Line 1. Module Adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" Line 1. Module Adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" Line 1. Module Adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" Line 1. Module Adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/mul_signed.v" Line 1. Module MUL_Signed(WIDTH=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/mul_improved.v" Line 1. Module MUL(WIDTH=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/reg.v" Line 1. Module Register(WIDTH=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/product_reg.v" Line 1. Module ProductReg(WIDTH=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/control_improved.v" Line 1. Module Control(N=16) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder32_8.v" Line 1. Module Adder doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" Line 1. Module Adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" Line 1. Module Adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" Line 1. Module Adder8 doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" Line 1. Module Adder8 doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Register(WIDTH=16)
+Compiling module xil_defaultlib.ProductReg(WIDTH=16)
+Compiling module xil_defaultlib.Control(N=16)
+Compiling module xil_defaultlib.MUL(WIDTH=16)
+Compiling module xil_defaultlib.Adder8
+Compiling module xil_defaultlib.Adder
+Compiling module xil_defaultlib.MUL_Signed(WIDTH=16)
+Compiling module xil_defaultlib.MUL_Signed_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MUL_Signed_tb_behav

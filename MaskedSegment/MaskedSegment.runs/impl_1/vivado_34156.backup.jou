@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sun Dec  3 15:01:31 2023
+# Process ID: 34156
+# Current directory: /home/ubuntu/labs/MaskedSegment/MaskedSegment.runs/impl_1
+# Command line: vivado -log Flash.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Flash.tcl -notrace
+# Log file: /home/ubuntu/labs/MaskedSegment/MaskedSegment.runs/impl_1/Flash.vdi
+# Journal file: /home/ubuntu/labs/MaskedSegment/MaskedSegment.runs/impl_1/vivado.jou
+# Running On: VM7699-verilog-labs, OS: Linux, CPU Frequency: 2402.098 MHz, CPU Physical cores: 2, Host memory: 4294 MB
+#-----------------------------------------------------------
+source Flash.tcl -notrace

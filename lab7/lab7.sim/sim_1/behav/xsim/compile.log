@@ -1,0 +1,27 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/control_improved.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/mul_improved.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUL
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'finish' is not allowed [/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/mul_improved.v:14]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/product_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ProductReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/segment.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Segment
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/shift_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ShiftReg
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Top
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sources_1/new/mul_signed.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUL_Signed
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder8
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab6/lab6.srcs/sources_1/new/adder32_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sim_1/new/mul_4bits_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUL_4bits_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sim_1/new/mul_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUL_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab7/lab7.srcs/sim_1/new/mul_signed_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUL_Signed_tb

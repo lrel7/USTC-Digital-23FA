@@ -1,0 +1,16 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab2/lab2.srcs/sources_1/new/q4-counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab2/lab2.srcs/sources_1/new/find_mode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FindMode
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab2/lab2.srcs/sim_1/new/q3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Module_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab2/lab2.srcs/sim_1/new/q4_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module q4_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab2/lab2.srcs/sim_1/new/find_mode_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FindMode_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab2/lab2.srcs/sim_1/new/find_mode_tb_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FindMode_tb
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'FindMode_tb' [/home/ubuntu/labs/lab2/lab2.srcs/sim_1/new/find_mode_tb_1.v:4]
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab2/lab2.srcs/sim_1/new/find_mode_tb_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FindMode_tb
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'FindMode_tb' [/home/ubuntu/labs/lab2/lab2.srcs/sim_1/new/find_mode_tb_2.v:4]

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xa7a100tcsg324-1I" LaunchTime="1698116130">
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Flash_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="Flash_routed.rqs"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-BGN" Name="Flash.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Flash.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Flash.ltx"/>
+  <File Type="RBD_FILE" Name="Flash.rbd"/>
+  <File Type="NPI_FILE" Name="Flash.npi"/>
+  <File Type="RNPI_FILE" Name="Flash.rnpi"/>
+  <File Type="CFI_FILE" Name="Flash.cfi"/>
+  <File Type="RCFI_FILE" Name="Flash.rcfi"/>
+  <File Type="PL-PDI-FILE" Name="Flash_pld.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Flash_soc.pdi"/>
+  <File Type="RDI-RDI" Name="Flash.vdi"/>
+  <File Type="PDI-FILE" Name="Flash.pdi"/>
+  <File Type="BITSTR-MMI" Name="Flash.mmi"/>
+  <File Type="BITSTR-BMM" Name="Flash_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Flash.nky"/>
+  <File Type="BITSTR-RBT" Name="Flash.rbt"/>
+  <File Type="BITSTR-MSK" Name="Flash.msk"/>
+  <File Type="BG-BIN" Name="Flash.bin"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <File Type="BG-BIT" Name="Flash.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Top_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Top_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Top_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Top_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Top_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Top_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Flash_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Flash_postroute_physopt.dcp"/>
+  <File Type="BG-DRC" Name="Flash.drc"/>
+  <File Type="ROUTE-RQS-PB" Name="Flash_rqs_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Flash_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Flash_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Flash_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Flash_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Flash_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Flash_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Flash_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Flash_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Flash_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Flash_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Flash_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Flash_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Flash_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Flash_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Flash_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Flash_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Flash_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Flash_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Flash_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Flash_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="Flash_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Flash_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Flash_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Flash_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Flash_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Flash_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Flash_postplace_pwropt.dcp"/>
+  <File Type="PLACE-RQA-PB" Name="Flash_rqa_placed.pb"/>
+  <File Type="PLACE-TIMING" Name="Flash_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Flash_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Flash_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Flash_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Flash_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Flash_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Flash_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Flash_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Flash_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Flash_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Flash_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Flash_pwropt.dcp"/>
+  <File Type="OPT-RQA-PB" Name="Flash_rqa_opted.pb"/>
+  <File Type="OPT-HWDEF" Name="Flash.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Flash_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Flash_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Flash_opt.dcp"/>
+  <File Type="OPT-TIMING" Name="Flash_timing_summary_opted.rpt"/>
+  <File Type="REPORTS-TCL" Name="Flash_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="Flash_timing_summary_init.rpt"/>
+  <File Type="PA-TCL" Name="Flash.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/counter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/q2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/segment.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/q3.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/q1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/led.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Flash"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/led.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/q1.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/q2.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/q3.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/LED.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

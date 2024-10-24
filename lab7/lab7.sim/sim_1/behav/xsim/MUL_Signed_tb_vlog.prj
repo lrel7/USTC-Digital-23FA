@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab7.srcs/sources_1/new/control_improved.v" \
+"../../../../lab7.srcs/sources_1/new/mul_improved.v" \
+"../../../../lab7.srcs/sources_1/new/product_reg.v" \
+"../../../../lab7.srcs/sources_1/new/reg.v" \
+"../../../../lab7.srcs/sources_1/new/segment.v" \
+"../../../../lab7.srcs/sources_1/new/shift_reg.v" \
+"../../../../lab7.srcs/sources_1/new/top.v" \
+"../../../../lab7.srcs/sources_1/new/mul_signed.v" \
+"../../../../../lab6/lab6.srcs/sources_1/new/adder8.v" \
+"../../../../../lab6/lab6.srcs/sources_1/new/adder32_8.v" \
+"../../../../lab7.srcs/sim_1/new/mul_4bits_tb.v" \
+"../../../../lab7.srcs/sim_1/new/mul_tb.v" \
+"../../../../lab7.srcs/sim_1/new/mul_signed_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

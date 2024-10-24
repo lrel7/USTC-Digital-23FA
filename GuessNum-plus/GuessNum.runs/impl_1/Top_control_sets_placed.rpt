@@ -1,0 +1,116 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.1 (lin64) Build 3865809 Sun May  7 15:04:56 MDT 2023
+| Date         : Thu Dec  7 09:45:43 2023
+| Host         : VM7699-verilog-labs running 64-bit Ubuntu 22.04.3 LTS
+| Command      : report_control_sets -verbose -file Top_control_sets_placed.rpt
+| Design       : Top
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    38 |
+|    Minimum number of control sets                        |    38 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   112 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    38 |
+| >= 0 to < 4        |     0 |
+| >= 4 to < 6        |     8 |
+| >= 6 to < 8        |     3 |
+| >= 8 to < 10       |     6 |
+| >= 10 to < 12      |     2 |
+| >= 12 to < 14      |     4 |
+| >= 14 to < 16      |     1 |
+| >= 16              |    14 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |            9 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             201 |           62 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             355 |           93 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------------------+------------------------------------------+------------------+----------------+--------------+
+|  Clock Signal  |                   Enable Signal                   |             Set/Reset Signal             | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+---------------------------------------------------+------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | minute_bin2bcd/bcd[3]_i_1_n_0                     | sw_IBUF[7]                               |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | micro_second_bin2bcd/bcd_buf[11]_i_2_n_0          | micro_second_bin2bcd/bcd_buf[11]_i_1_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | micro_second_bin2bcd/bcd_buf[7]_i_1__0_n_0        | micro_second_bin2bcd/bcd_buf[11]_i_1_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | micro_second_bin2bcd/bcd_buf[3]_i_1__1_n_0        | micro_second_bin2bcd/bcd_buf[11]_i_1_n_0 |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | minute_bin2bcd/bcd_buf[3]                         | minute_bin2bcd/bcd_buf[3]_i_1_n_0        |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | second_bin2bcd/bcd_buf[3]                         | second_bin2bcd/bcd_buf[7]_i_1_n_0        |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | second_bin2bcd/bcd_buf[7]                         | second_bin2bcd/bcd_buf[7]_i_1_n_0        |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | send/dout_cnt0                                    | send/dout_cnt                            |                1 |              5 |         5.00 |
+|  clk_IBUF_BUFG | timer/micro_second_clock/counter_1ms_reg_19_sn_1  | control/SR[0]                            |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG | timer/micro_second_clock/E[0]                     | control/SR[0]                            |                3 |              7 |         2.33 |
+|  clk_IBUF_BUFG | uart_encode/E[0]                                  | sw_IBUF[7]                               |                2 |              7 |         3.50 |
+|  clk_IBUF_BUFG | segment_mask/valid[7]_i_2_n_0                     | timer/second_clock/SS[0]                 |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | second_bin2bcd/bin_buf[7]_i_1__0_n_0              | sw_IBUF[7]                               |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | second_bin2bcd/bcd[7]_i_1_n_0                     | sw_IBUF[7]                               |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | minute_bin2bcd/bin_buf[7]_i_1_n_0                 | sw_IBUF[7]                               |                2 |              8 |         4.00 |
+|  clk_IBUF_BUFG | flow/led                                          | sw_IBUF[7]                               |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG | in/E[0]                                           | sw_IBUF[7]                               |                2 |              9 |         4.50 |
+|  clk_IBUF_BUFG |                                                   | receive/div_cnt[9]_i_1_n_0               |                5 |             10 |         2.00 |
+|  clk_IBUF_BUFG |                                                   | send/div_cnt[9]_i_1__0_n_0               |                3 |             10 |         3.33 |
+|  clk_IBUF_BUFG | timer/micro_second_clock/counter_1ms_reg[17]_0[0] | control/SR[0]                            |                4 |             12 |         3.00 |
+|  clk_IBUF_BUFG | micro_second_bin2bcd/bcd[11]_i_1_n_0              | sw_IBUF[7]                               |                2 |             12 |         6.00 |
+|  clk_IBUF_BUFG | micro_second_bin2bcd/bin_buf[11]_i_1_n_0          | sw_IBUF[7]                               |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG | receive/accept_din                                | receive/din_data[7]_i_1_n_0              |                5 |             12 |         2.40 |
+|  clk_IBUF_BUFG | uart_encode/r11[3]_i_1_n_0                        | sw_IBUF[7]                               |                3 |             15 |         5.00 |
+|  clk_IBUF_BUFG | edge_capture/btn_posedge                          | sw_IBUF[7]                               |                6 |             18 |         3.00 |
+|  clk_IBUF_BUFG |                                                   |                                          |                9 |             20 |         2.22 |
+|  clk_IBUF_BUFG |                                                   | uart_encode/div_cnt[0]_i_1_n_0           |                5 |             20 |         4.00 |
+|  clk_IBUF_BUFG | control/E[0]                                      | sw_IBUF[7]                               |                7 |             21 |         3.00 |
+|  clk_IBUF_BUFG | uart_encode/r8[4]_i_2_n_0                         | uart_encode/r8[4]_i_1_n_0                |                4 |             26 |         6.50 |
+|  clk_IBUF_BUFG |                                                   | flow/count_1hz[0]_i_1_n_0                |                7 |             26 |         3.71 |
+|  clk_IBUF_BUFG |                                                   | segment_mask/count[0]_i_1_n_0            |                7 |             27 |         3.86 |
+|  clk_IBUF_BUFG | uart_encode/r12[3]_i_1_n_0                        | sw_IBUF[7]                               |                6 |             29 |         4.83 |
+|  clk_IBUF_BUFG | minute_bin2bcd/next_state[1]                      | minute_bin2bcd/bcd_buf[3]_i_1_n_0        |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG | micro_second_bin2bcd/next_state[1]                | micro_second_bin2bcd/bcd_buf[11]_i_1_n_0 |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG | second_bin2bcd/next_state[1]                      | second_bin2bcd/bcd_buf[7]_i_1_n_0        |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG |                                                   | timer/counter_1ms[0]_i_1_n_0             |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG |                                                   | segment/count[0]_i_1__0_n_0              |                8 |             32 |         4.00 |
+|  clk_IBUF_BUFG |                                                   | sw_IBUF[7]                               |               19 |             44 |         2.32 |
++----------------+---------------------------------------------------+------------------------------------------+------------------+----------------+--------------+
+
+

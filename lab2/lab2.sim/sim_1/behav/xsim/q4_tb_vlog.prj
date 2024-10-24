@@ -1,0 +1,15 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab2.srcs/sources_1/new/q4-counter.v" \
+"../../../../lab2.srcs/sources_1/new/find_mode.v" \
+"../../../../lab2.srcs/sim_1/new/q3.v" \
+"../../../../lab2.srcs/sim_1/new/q4_tb.v" \
+"../../../../lab2.srcs/sim_1/new/find_mode_tb.v" \
+"../../../../lab2.srcs/sim_1/new/find_mode_tb_1.v" \
+"../../../../lab2.srcs/sim_1/new/find_mode_tb_2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

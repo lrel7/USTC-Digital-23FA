@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../GuessNum.srcs/sources_1/new/check.v" \
+"../../../../GuessNum.srcs/sources_1/new/clock.v" \
+"../../../../GuessNum.srcs/sources_1/new/control.v" \
+"../../../../GuessNum.srcs/sources_1/new/edge_capture.v" \
+"../../../../GuessNum.srcs/sources_1/new/led.v" \
+"../../../../GuessNum.srcs/sources_1/new/mux4.v" \
+"../../../../GuessNum.srcs/sources_1/new/segment.v" \
+"../../../../GuessNum.srcs/sources_1/new/shift_reg.v" \
+"../../../../GuessNum.srcs/sources_1/new/sw_input.v" \
+"../../../../GuessNum.srcs/sources_1/new/timer.v" \
+"../../../../GuessNum.srcs/sources_1/new/top.v" \
+"../../../../GuessNum.srcs/sim_1/new/top_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

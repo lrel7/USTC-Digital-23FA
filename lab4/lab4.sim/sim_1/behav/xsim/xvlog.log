@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab4/lab4.srcs/sources_1/new/multiple5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple5
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab4/lab4.srcs/sources_1/new/q2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder2bit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ubuntu/labs/lab4/lab4.srcs/sim_1/new/multiple5_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Multiple5_tb
